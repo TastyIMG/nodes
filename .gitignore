@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+.eggs/
+dist/
+build/
+pip-wheel-metadata/
+*.manifest
+*.spec
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Test / type / lint caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs and local env
+*.log
+.env
+.env.*
+!.env.example
+
+# ComfyUI / runtime artifacts (nodes may write these during dev)
+tasty_temp/
+output/
+temp/
+
+# Local scratch — not part of the published node pack
+problem_file.py
+notes.md
+svg_to_png(NEW).py
+rghthree_eaxmple_any.py
+py/edge_correction.py
